@@ -1,5 +1,5 @@
 
-'''
+"""
 Usage Example:
     from dm_test import DieboldMarianoTest, quick_dm_analysis
 
