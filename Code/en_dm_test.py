@@ -1,18 +1,4 @@
-"""
-Diebold-Mariano Test Module
-============================
 
-Statistical testing module for comparing the performance significance of time series forecasting models
-
-Author: AI Assistant
-Date: 2025-10-16
-Version: 1.0.0
-
-Main Features:
-- Single baseline model comparison
-- Pairwise comparison
-- Visualization analysis
-- Detailed report generation
 
 Usage Example:
     from dm_test import DieboldMarianoTest, quick_dm_analysis
