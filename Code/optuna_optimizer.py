@@ -1,37 +1,4 @@
-"""
-=====================================================================================
-Standalone Optuna Optimizer Module
-独立Optuna优化模块 - 最终完整版
-=====================================================================================
 
-这是一个完全独立的Optuna超参数优化模块，可以无缝集成到任何时间序列预测代码中。
-
-文件名: optuna_optimizer.py
-版本: 2.0 Final
-作者: AI Research Team
-日期: 2025-10
-
-使用方法:
---------
-1. 将此文件保存为 optuna_optimizer.py
-2. 与主程序放在同一目录
-3. 在主程序中导入: from optuna_optimizer import OptunaOptimizer
-4. 创建优化器并调用优化方法
-
-快速示例:
---------
-from optuna_optimizer import OptunaOptimizer
-
-optimizer = OptunaOptimizer(X_train_seq, y_train_seq, seed=42)
-best_params = optimizer.optimize_lstm(n_trials=50)
-print(f"最优参数: {best_params}")
-
-依赖包:
-------
-pip install optuna optuna-integration tensorflow scikit-learn xgboost kaleido
-
-=====================================================================================
-"""
 
 import optuna
 from optuna.integration import TFKerasPruningCallback
