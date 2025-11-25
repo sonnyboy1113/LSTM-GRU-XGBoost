@@ -1,20 +1,4 @@
-"""
-Feature-Level Ablation Experiment Module
-=========================================
 
-Specialized module for quantifying the contribution of each input feature (e.g., EPU, GPR)
-to prediction performance
-
-Features:
-1. Ablation experiments by removing features one by one
-2. Quantifying absolute/relative contribution of each feature
-3. Feature importance ranking
-4. Feature combination effect analysis
-5. Academic report generation
-
-Author: Feature Ablation Module
-Version: 1.0.0
-"""
 
 import numpy as np
 import pandas as pd
